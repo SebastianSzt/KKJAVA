@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Zadanie 1/Zadanie 1.iml" filepath="$PROJECT_DIR$/Zadanie 1/Zadanie 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie 2/Zadanie 2.iml" filepath="$PROJECT_DIR$/Zadanie 2/Zadanie 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie 3/Zadanie 3.iml" filepath="$PROJECT_DIR$/Zadanie 3/Zadanie 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie 4v1/Zadanie 4v1.iml" filepath="$PROJECT_DIR$/Zadanie 4v1/Zadanie 4v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie 4v2/Zadanie 4v2.iml" filepath="$PROJECT_DIR$/Zadanie 4v2/Zadanie 4v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie 4v3/Zadanie 4v3.iml" filepath="$PROJECT_DIR$/Zadanie 4v3/Zadanie 4v3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie 5v1/Zadanie 5v1.iml" filepath="$PROJECT_DIR$/Zadanie 5v1/Zadanie 5v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie 5v2/Zadanie 5v2.iml" filepath="$PROJECT_DIR$/Zadanie 5v2/Zadanie 5v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie 6/Zadanie 6.iml" filepath="$PROJECT_DIR$/Zadanie 6/Zadanie 6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie 7/Zadanie 7.iml" filepath="$PROJECT_DIR$/Zadanie 7/Zadanie 7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie 8/Zadanie 8.iml" filepath="$PROJECT_DIR$/Zadanie 8/Zadanie 8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie 9/Zadanie 9.iml" filepath="$PROJECT_DIR$/Zadanie 9/Zadanie 9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java23l-zadania-SebastianSzt.iml" filepath="$PROJECT_DIR$/.idea/java23l-zadania-SebastianSzt.iml" />
+    </modules>
+  </component>
+</project>

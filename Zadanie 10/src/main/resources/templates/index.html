@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lista zakupów</title>
+  <style>
+    a
+    {
+      color: blue;
+      text-decoration: none;
+    }
+
+    a:visited
+    {
+      color: blue;
+      text-decoration: none;
+    }
+
+    #link
+    {
+      cursor: pointer;
+      color: blue;
+    }
+  </style>
+
+  <script>
+    function showEditForm(element)
+    {
+      const index = document.getElementById('index');
+      const newItem = document.getElementById('newItem');
+      const editForm = document.getElementById('editForm');
+
+
+      index.value = element.getAttribute('data-index-th');
+      newItem.value = element.getAttribute('data-item-th');
+      editForm.style.display = 'block';
+    }
+  </script>
+</head>
+<body>
+  <h1>Lista zakupów</h1>
+
+  <form action="/add" method="post">
+    <input type="text" name="item" placeholder="Nowy przedmiot">
+    <button type="submit">Dodaj</button>
+  </form>
+
+  <ul>
+    <li th:each="item, itemInfo : ${items}">
+      <b><span th:text="${item}"></span></b>&nbsp;&nbsp;&nbsp;
+      <a th:href="@{'/delete?index=' + ${itemInfo.index}}">[Usuń]</a>&nbsp;&nbsp;&nbsp;
+      <span id="link" th:data-index-th="${itemInfo.index}" th:data-item-th="${item}" onclick="showEditForm(this)">[Edytuj]</span>
+    </li>
+  </ul>
+
+  <br> <br>
+
+  <form action="/edit" method="post" id="editForm" style="display: none;">
+    <h2>Edytuj przedmiot</h2>
+    <input type="hidden" id="index" name="index">
+    <input type="text" id="newItem" name="newItem" placeholder="Nowa nazwa">
+    <button type="submit">Zapisz</button>
+  </form>
+</body>
+</html>
